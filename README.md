@@ -16,7 +16,3 @@ This is pretty much a default template produced with luminus
     lein new luminus lumfriend
 
 And I'm trying to use basic form authentication. My users are stored in mysql and I will be wiring the login function later.
-
-Main files to look at are: 
-
-`/src/lumfriend/
