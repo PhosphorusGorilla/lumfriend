@@ -1,0 +1,9 @@
+{% extends "lumfriend/views/templates/base.html" %}
+{% block content %}
+  <form class="form-signin" method="POST" action="/">
+    <h2 class="form-signin-heading">Please sign in</h2>
+    <input name="uname" type="text" class="input-block-level" placeholder="account" required autofocus>
+    <input name="pwd" type="password" class="input-block-level" placeholder="Password" required>
+    <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+  </form>
+{% endblock %}
